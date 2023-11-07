@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  /* background: #222; */
+
+  background-repeat: no-repeat;
+	color: #000;
+}
+#button {
+position: absolute;
+top: 0;
+right: 0;
+}
+.app{
+	/* display: flex; */
+  justify-content: center;
+  align-items: center;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wrapper{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper img{
+	filter: drop-shadow(10px 10px 4px #e4e4f0);
+}
+.year{
+	padding-bottom: 300px;
+	padding-left: 80px;
+	color: white;
+}
+.month{
+	font-family: 'Grey Qo', cursive;
+	font-size: 26px;
+	font-weight: 600;
+	color:#000;
+
+}
+.day{
+	color:#000;
+  padding-bottom: 360px;
+  font-size: 7em;
+	font-family: 'Grey Qo', cursive;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.phras{
+	background: #ebe1e16e;
+	font-size: 36px;
+	display: block;
+	text-align: center;
+	justify-content: center;
+	padding: 5px 10px;
+	font-family: 'Grey Qo', cursive;
+	border-radius: 10px;
+	color: #000;
+	font-weight: 900;
+	filter: drop-shadow(10px 10px 4px #e4e4f0);
+}
