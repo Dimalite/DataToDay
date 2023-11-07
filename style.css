@@ -34,6 +34,9 @@ right: 0;
 }
 .wrapper img{
 	filter: drop-shadow(10px 10px 4px #e4e4f0);
+	position: relative;
+	top: -148px;
+	left: -23px;
 }
 .year{
 	padding-bottom: 300px;
@@ -55,9 +58,12 @@ right: 0;
 }
 
 .centered {
-  position: absolute;
+	position: fixed;
+	top: 30%;
+	left: 40%;
+  /* position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%; */
   transform: translate(-50%, -50%);
 }
 .phras{
@@ -67,9 +73,12 @@ right: 0;
 	text-align: center;
 	justify-content: center;
 	padding: 5px 10px;
+	margin: 0 4px;
 	font-family: 'Grey Qo', cursive;
 	border-radius: 10px;
 	color: #000;
 	font-weight: 900;
 	filter: drop-shadow(10px 10px 4px #e4e4f0);
+	position: fixed;
+	top: 280px;
 }
