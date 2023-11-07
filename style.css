@@ -36,7 +36,7 @@ right: 0;
 	filter: drop-shadow(10px 10px 4px #e4e4f0);
 	position: relative;
 	top: -148px;
-	left: -23px;
+	left: 0;
 }
 .year{
 	padding-bottom: 300px;
@@ -80,5 +80,5 @@ right: 0;
 	font-weight: 900;
 	filter: drop-shadow(10px 10px 4px #e4e4f0);
 	position: fixed;
-	top: 280px;
+	top: 330px;
 }
